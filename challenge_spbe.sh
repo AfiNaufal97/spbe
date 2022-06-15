@@ -1,5 +1,5 @@
 # Install web server (Apache), PHP and minimum PHP extension requirements to run Laravel
-sudo apt-get update && sudo apt-get install apache2 php libapache2-mod-php php-mbstring php-cli php-bcmath php-json php-xml php-zip php-pdo php-common php-tokenizer php-mysql -y
+sudo apt-get update && sudo apt-get install apache2 php8.1 php-curl libapache2-mod-php php-mbstring php-cli php-bcmath php-json php-xml php-zip php-pdo php-common php-tokenizer php-mysql -y
 
 # Install composer (package dependencies manager)
 sudo curl -sS https://getcomposer.org/installer | php
